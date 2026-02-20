@@ -31,7 +31,7 @@ fonts:
 <TwoColumnLayout :gap="8">
   <template #left>
 
-- **fujitani sora** / @_fs0414
+- **fujitani sora** / @sorafujitani
 - <EmojiText emoji="👤">2001（24）</EmojiText>
 - <EmojiText emoji="🏢">株式会社トリドリ・software engineer</EmojiText>
 - <EmojiText emoji="🎤">技育CAMPの公式メンター</EmojiText>
@@ -43,13 +43,13 @@ fonts:
 CodeFormatterに凝っています。<br/>
 Prettierのバグを直したり、自作のRust製Ruby Code Formatterを公開したり<br/>
 <div>
-<a href="https://github.com/fs0414/rfmt">https://github.com/fs0414/rfmt</a>
+<a href="https://github.com/sorafujitani/rfmt">https://github.com/sorafujitani/rfmt</a>
 </div>
   </template>
   <template #right>
 
 <CenteredImage
-  src="https://raw.githubusercontent.com/fs0414/imgs/main/fs0414_dot_image.png"
+  src="https://raw.githubusercontent.com/sorafujitani/imgs/main/fs0414_dot_image.png"
   alt="プロフィール画像"
   width="320px"
 />

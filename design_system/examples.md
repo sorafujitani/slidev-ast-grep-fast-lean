@@ -33,10 +33,10 @@
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-xl">
-  <a href="https://github.com/fs0414" target="_blank" class="slidev-icon-btn">
+  <a href="https://github.com/sorafujitani" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
-  <a href="https://x.com/_fs0414" target="_blank" class="slidev-icon-btn">
+  <a href="https://x.com/sorafujitani" target="_blank" class="slidev-icon-btn">
     <carbon:logo-twitter />
   </a>
 </div>
@@ -55,7 +55,7 @@
   subtitle="サブタイトルや簡単な説明"
   event="イベント名"
   author="fujitani sora"
-  :social="{ github: 'fs0414', twitter: '_fs0414' }"
+  :social="{ github: 'sorafujitani', twitter: 'sorafujitani' }"
 />
 ```
 
@@ -74,7 +74,7 @@
 <div class="grid grid-cols-2 gap-8">
 <div>
 
-- **fujitani sora** / @_fs0414
+- **fujitani sora** / @sorafujitani
 - 株式会社トリドリ・software engineer
 - TSKaigiの運営
 - 技育CAMPの公式メンター
@@ -104,7 +104,7 @@
 <TwoColumnLayout :gap="8">
   <template #left>
 
-- **fujitani sora** / @_fs0414
+- **fujitani sora** / @sorafujitani
 - <EmojiText emoji="🏢">株式会社トリドリ・software engineer</EmojiText>
 - <EmojiText emoji="🎤">TSKaigiの運営</EmojiText>
 - <EmojiText emoji="💻">技育CAMPの公式メンター</EmojiText>
@@ -254,10 +254,10 @@ class: text-center
 # <span class="gradient-heading">ご清聴ありがとうございました</span>
 
 <div class="mt-8">
-  <a href="https://github.com/fs0414" target="_blank" class="mx-2">
+  <a href="https://github.com/sorafujitani" target="_blank" class="mx-2">
     <carbon:logo-github class="inline text-2xl" />
   </a>
-  <a href="https://x.com/_fs0414" target="_blank" class="mx-2">
+  <a href="https://x.com/sorafujitani" target="_blank" class="mx-2">
     <carbon:logo-twitter class="inline text-2xl" />
   </a>
 </div>
@@ -281,8 +281,8 @@ class: text-center
 
 <div class="mt-8">
   <SocialLinks
-    github="fs0414"
-    twitter="_fs0414"
+    github="sorafujitani"
+    twitter="sorafujitani"
   />
 </div>
 ```

@@ -140,8 +140,8 @@ SNS リンク集を表示するコンポーネント。
 
 ```vue
 <SocialLinks
-  github="fs0414"
-  twitter="_fs0414"
+  github="sorafujitani"
+  twitter="sorafujitani"
   size="xl"
 />
 ```
@@ -151,10 +151,10 @@ SNS リンク集を表示するコンポーネント。
 **Before**:
 ```md
 <div class="flex gap-2">
-  <a href="https://github.com/fs0414" target="_blank">
+  <a href="https://github.com/sorafujitani" target="_blank">
     <carbon:logo-github class="text-2xl" />
   </a>
-  <a href="https://x.com/_fs0414" target="_blank">
+  <a href="https://x.com/sorafujitani" target="_blank">
     <carbon:logo-twitter class="text-2xl" />
   </a>
 </div>
@@ -162,7 +162,7 @@ SNS リンク集を表示するコンポーネント。
 
 **After**:
 ```vue
-<SocialLinks github="fs0414" twitter="_fs0414" />
+<SocialLinks github="sorafujitani" twitter="sorafujitani" />
 ```
 
 ---
@@ -196,7 +196,7 @@ SNS リンク集を表示するコンポーネント。
   subtitle="サブタイトルや説明"
   event="イベント名"
   author="fujitani sora"
-  :social="{ github: 'fs0414', twitter: '_fs0414' }"
+  :social="{ github: 'sorafujitani', twitter: 'sorafujitani' }"
 />
 ```
 
@@ -219,10 +219,10 @@ SNS リンク集を表示するコンポーネント。
 </div>
 
 <div class="abs-br m-6 flex gap-2 text-xl">
-  <a href="https://github.com/fs0414" target="_blank">
+  <a href="https://github.com/sorafujitani" target="_blank">
     <carbon:logo-github />
   </a>
-  <a href="https://x.com/_fs0414" target="_blank">
+  <a href="https://x.com/sorafujitani" target="_blank">
     <carbon:logo-twitter />
   </a>
 </div>
@@ -235,7 +235,7 @@ SNS リンク集を表示するコンポーネント。
   subtitle="サブタイトルや簡単な説明"
   event="イベント名"
   author="fujitani sora"
-  :social="{ github: 'fs0414', twitter: '_fs0414' }"
+  :social="{ github: 'sorafujitani', twitter: 'sorafujitani' }"
 />
 ```
 
@@ -338,7 +338,7 @@ class: slide-gradient-bg
 <TwoColumnLayout>
   <template #left>
 
-- **fujitani sora** / @_fs0414
+- **fujitani sora** / @sorafujitani
 - <EmojiText emoji="🏢">株式会社トリドリ</EmojiText>
 - <EmojiText emoji="🎤">TSKaigiの運営</EmojiText>
 - <EmojiText emoji="💻">技育CAMPメンター</EmojiText>
@@ -364,8 +364,8 @@ class: slide-gradient-bg
 
   <div class="mt-8">
     <SocialLinks
-      github="fs0414"
-      twitter="_fs0414"
+      github="sorafujitani"
+      twitter="sorafujitani"
     />
   </div>
 </div>
